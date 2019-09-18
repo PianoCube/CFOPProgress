@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="TheStyles.css" />
+    <title>CFOPprogress</title>
+</head>
+<body>
+
+
+    <div class="page">
+    <div id="title">
+        <h1>Skill Tree for CFOP</h1>
+    </div>
+
+    <div id="stageToggle">
+        <div class="emptyBox1"></div>
+        <div class='CrossTitle' onclick=togglePart(this)>Cross</div>
+        <div class='F2LTitle' onclick=togglePart(this)>F2L</div>
+        <div class='LLTitle' onclick=togglePart(this)>LL</div>
+        <div class="emptyBox2"></div>
+    </div>
+
+    <div id='description'>Here's description
+        aaaaaaaad alskdaj sdlaisd adslkjna sdnkas saljkdasd askd asdasdasd asd asda sd a
+    </div>
+
+    <div id="steps">
+        <div id='Cross' class='boxes hideElement'>
+            <p onclick=changeDescription(this)>
+                Solve cross directly<br>
+                Solve it on bottom
+            </p>
+            <p onclick=changeDescription(this)>Cross Stage 2</p>
+            <p onclick=changeDescription(this)>Cross Stage 3</p>
+            <p onclick=changeDescription(this)>Cross Stage 4</p>
+            <p onclick=changeDescription(this)>Cross Stage 5</p>
+            <p onclick=changeDescription(this)>Cross Stage 6</p>
+        </div>
+
+        <div id='F2L' class='boxes hideElement'>    
+            <p onclick=changeDescription(this)>F2L Stage 1</p>
+            <p onclick=changeDescription(this)>F2L Stage 2</p>
+            <p onclick=changeDescription(this)>F2L Stage 3</p>
+            <p onclick=changeDescription(this)>F2L Stage 4</p>
+            <p onclick=changeDescription(this)>F2L Stage 5</p>
+            <p onclick=changeDescription(this)>F2L Stage 6</p>
+        </div>
+
+        <div id='LL' class='boxes hideElement'>    
+            <p onclick=changeDescription(this)>LL Stage 1</p>
+            <p onclick=changeDescription(this)>LL Stage 2</p>
+            <p onclick=changeDescription(this)>LL Stage 3</p>
+            <p onclick=changeDescription(this)>LL Stage 4</p>
+            <p onclick=changeDescription(this)>LL Stage 5</p>
+            <p onclick=changeDescription(this)>LL Stage 6</p>
+        </div>
+    </div>
+    <div class='emptyBox'></div>
+    </div>
+
+    <script src="TheJS.js"></script>
+</body>
+</html>
